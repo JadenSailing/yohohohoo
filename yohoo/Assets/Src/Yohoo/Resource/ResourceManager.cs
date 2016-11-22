@@ -11,16 +11,12 @@ public class ResourceManager : Singleton<ResourceManager>, ICommon
     private RemoteLoader m_RemoteLoader = null;
     private ResourcesLoader m_ResourcesLoader = null;
 
-    private ResourceEntry m_MonoEntry = null;
-
     private List<AbstractLoaderInfo> _LoadingResList = new List<AbstractLoaderInfo>();
 
     public delegate void OnResourceCallBack(int index, System.Object obj);
 
     public void Init()
     {
-        m_MonoEntry = GameManager.Instance.MonoObject.AddComponent<ResourceEntry>();
-
         m_RemoteLoader = new RemoteLoader();
         m_ResourcesLoader = new ResourcesLoader();
     }
@@ -49,11 +45,6 @@ public class ResourceManager : Singleton<ResourceManager>, ICommon
     public void Release()
     {
 
-    }
-
-    public ResourceEntry GetMonoEntry()
-    {
-        return m_MonoEntry;
     }
 
     private static int _LoadIndex = 0;
