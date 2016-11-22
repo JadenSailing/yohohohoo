@@ -9,15 +9,24 @@ namespace Yohoo.Resource
         {
             RemoteLoaderInfo info = new RemoteLoaderInfo();
             info.url = url;
-            ResourceManager.Instance.GetMonoEntry().StartCoroutine(LoadRemoteUrlByWWW(info));
+            //ResourceManager.Instance.GetMonoEntry().StartCoroutine(LoadRemoteUrlByWWW(info));
+            LoadRemoteUrlByWWW(info);
             return info;
         }
 
+        /*
         IEnumerator LoadRemoteUrlByWWW(RemoteLoaderInfo info)
         {
             WWW www = new WWW(info.url);
             info.www = www;
             yield return www;
+        }
+         * */
+
+        void LoadRemoteUrlByWWW(RemoteLoaderInfo info)
+        {
+            WWW www = new WWW(info.url);
+            info.www = www;
         }
     }
 }
