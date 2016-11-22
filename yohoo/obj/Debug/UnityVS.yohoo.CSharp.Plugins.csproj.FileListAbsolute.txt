@@ -1,0 +1,11 @@
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Jaden\Sailing\yohoo\yohoo\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Jaden\Sailing\yohoo\yohoo\obj\Debug\UnityVS.yohoo.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\Jaden\Sailing\yohoo\yohoo\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Jaden\Sailing\yohoo\yohoo\obj\Debug\Assembly-CSharp-firstpass.pdb
